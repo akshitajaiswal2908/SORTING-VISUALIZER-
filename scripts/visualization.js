@@ -27,7 +27,7 @@ var c_delay=0;//This is updated ov every div change so that visualization is vis
 
 function div_update(cont,height,color)
 {
-window.setTimeout(function(){
+    window.setTimeout(function(){
         cont.style=" margin:0% " + margin_size + "%; width:" + (100/array_size-(2*margin_size)) + "%; height:" + height + "%; background-color:" + color + ";";
     },c_delay+=delay_time);
 }
