@@ -7,6 +7,7 @@ var butts_algos=document.querySelectorAll(".algos button");
 
 var div_sizes=[];
 var divs=[];
+
 var margin_size;
 var cont=document.getElementById("array_container");
 cont.style="flex-direction:row";
