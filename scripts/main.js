@@ -2,7 +2,7 @@
 var inp_as=document.getElementById('a_size'),array_size=inp_as.value;
 var inp_gen=document.getElementById("a_generate");
 var inp_aspeed=document.getElementById("a_speed");
-
+var output = document.getElementById('output');
 var butts_algos=document.querySelectorAll(".algos button");
 
 var div_sizes=[];
@@ -33,7 +33,9 @@ function generate_array()
 
 function update_array_size()
 {
+    
     array_size=inp_as.value;
+    output.innerHTML = array_size;
     generate_array();
 }
 

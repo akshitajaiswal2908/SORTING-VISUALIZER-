@@ -1,7 +1,7 @@
 
 function Bubble()
 {
-    console.log("hy");
+    
     //Setting Time complexities
     document.getElementById("Time_Worst").innerText="O(N^2)";
     document.getElementById("Time_Average").innerText="Θ(N^2)";
@@ -16,9 +16,9 @@ function Bubble()
     {
         for(var j=0;j<array_size-i-1;j++)
         {
-            console.log("hyyyy");
+           
             div_update(divs[j],div_sizes[j],"yellow");//Color update
-            console.log("hyyyyyyyyyy");
+            
             if(div_sizes[j]>div_sizes[j+1])
             {
                 div_update(divs[j],div_sizes[j], "red");//Color update
